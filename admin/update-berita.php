@@ -15,24 +15,31 @@
     <body style="background-color: rgb(58, 79, 172);">
         <!-- Content-->
         <div class="container d-flex justify-content-center p-5 w-50">
-            <main class="form-signin w-75 mt-5">
+            <main class="form-signin w-75">
             <form action="" name="" method="">
                 <h1 class="display-5 mb-3 text-center fw-normal text-light">Update Berita</h1>
                 <div class="form-floating">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Tempat Kejadian" name="">
-                <label for="floatingInput">Tempat Kejadian</label>
+                <input type="text" class="form-control" id="floatingInput" value="masukkan syntax update by id di sini" placeholder="Judul" name="">
+                <label for="floatingInput">Judul</label>
                 </div>
                 <div class="form-floating my-4">
-                <input type="date" class="form-control" id="floatingInput" placeholder="Tanggal Kejadian" name="">
-                <label for="floatingInput">Tanggal Kejadian</label>
+                <input type="file" class="form-control" id="floatingInput" value="masukkan syntax update by id di sini" placeholder="Foto" name="">
+                <label for="floatingInput">Foto</label>
                 </div>
                 <div class="form-floating my-4">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Isi Berita" name="">
-                <label for="floatingInput">Isi Berita</label>
+                <input type="text" class="form-control" id="floatingInput" value="masukkan syntax update by id di sini" placeholder="Berita" name="">
+                <label for="floatingInput">Berita</label>
                 </div>
-
+                <div class="form-floating my-4">
+                <input type="date" class="form-control" id="floatingInput" value="masukkan syntax update by id di sini" placeholder="Tanggal Dibuat" name="">
+                <label for="floatingInput">Tanggal Dibuat</label>
+                </div>
+                <div class="form-floating my-4">
+                <input type="date" class="form-control" id="floatingInput" value="masukkan syntax update by id di sini" placeholder="Tanggal Diperbarui" name="">
+                <label for="floatingInput">Tanggal Diperbarui</label>
+                </div>
                 <div class="my-4">
-                    <button class="btn btn-primary w-100 py-2" type="submit" name="">Update Berita</button>
+                    <button class="btn btn-primary w-100 py-2" type="submit" name="">Tambah Berita</button>
                 </div>
             </form>
             </main>
@@ -42,7 +49,7 @@
         <!-- Footer-->
         <div class="container">
             <footer class="py-1 my-1 text-light">
-                <p class="text-center">&copy; 2024 <b>Ariel Gunawan & Muhamad Amin</b></p>
+            <p class="text-center">&copy; 2024 <b><a href="https://github.com/arielwebdev28" target="_blank" class="text-decoration-none text-white">Ariel Gunawan</a> & <a href="https://github.com/muhamad-amin" target="_blank" class="text-decoration-none text-white">Muhamad Amin</a></b></p>
             </footer>
         </div>
         <!-- Script js Bootstrap Start -->

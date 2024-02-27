@@ -16,13 +16,14 @@
         <!-- navbar-->
         <nav class="navbar navbar-expand-lg sticky-top bg-warning">
             <div class="container-fluid px-5">
-                <a class="navbar-brand" href="index.php">RPL Production</a>
+                <a class="navbar-brand" href="#">RPL Production</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.php"><b>Admin</b></a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.php">Berita</a></li>
+                        <li class="nav-item"><a class="nav-link" href="berita.php"><b>Admin</b></a></li>
+                        <li class="nav-item"><a class="nav-link" href="berita.php">Berita</a></li>
                         <li class="nav-item"><a class="nav-link" href="produk.php">Produk</a></li>
+                        <li class="nav-item"><a class="nav-link" href="foto-kegiatan.php">Foto Kegiatan</a></li>
                     </ul>
                 </div>
                 <form class="d-flex" role="search">
@@ -46,105 +47,23 @@
                 </table>
                 <table class="table table-bordered table-striped table-responsive w-100">
                     <tr>
-                        <th class="w-25 text-center">Nama Produk</th>
-                        <th class="w-25 text-center">Jumlah Produk</th>
-                        <th class="w-25 text-center">Keterangan</th>
-                        <th class="w-25 text-center">Sunting</td>
+                        <th class="text-center">Nama Produk</th>
+                        <th class="text-center">Harga</th>
+                        <th class="text-center">Foto</th>
+                        <th class="text-center">Keterangan</td>
+                        <th class="text-center">Excerpt</td>
+                        <th class="text-center">Tanggal Dibuat</td>
+                        <th class="text-center">Sunting</td>
                     </tr>
                     <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">120(Seratus Dua Puluh)</td>
-                        <td class="w-25 text-center">Nanti diganti lagi</td>
-                        <td class="w-25 text-center">
-                            <a href="update-produk.php" class="btn btn-warning ms-3 me-3">Edit</a> |   <a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
+                        <td class="text-center">data dari db</td>
+                        <td class="text-center">data dari db</td>
+                        <td class="text-center">data dari db</td>
+                        <td class="text-center">data dari db</td>
+                        <td class="text-center">data dari db</td>
+                        <td class="text-center">data dari db</td>
+                        <td class="text-center">
+                            <a href="update-produk.php" class="btn btn-warning">Edit</a><a href="delete-produk.php" class="btn btn-danger ms-3 me-3">Hapus</a>
                         </td>
                     </tr>
                 </table>
@@ -156,11 +75,11 @@
         <div class="container">
             <footer class="py-1 my-1 text-light">
                 <ul class="nav justify-content-center border-bottom pb-2 mb-2">
-                <li class="nav-item"><a href="index.php" class="nav-link px-2 text-light"><b>Admin</b></a></li>
-                <li class="nav-item"><a href="index.php" class="nav-link px-2 text-light">Berita</a></li>
+                <li class="nav-item"><a href="berita.php" class="nav-link px-2 text-light">Berita</a></li>
                 <li class="nav-item"><a href="produk.php" class="nav-link px-2 text-light">Produk</a></li>
+                <li class="nav-item"><a href="foto-kegiatan.php" class="nav-link px-2 text-light">Foto Kegiatan</a></li>
                 </ul>
-                <p class="text-center">&copy; 2024 <b>Ariel Gunawan & Muhamad Amin</b></p>
+                <p class="text-center">&copy; 2024 <b><a href="https://github.com/arielwebdev28" target="_blank" class="text-decoration-none text-white">Ariel Gunawan</a> & <a href="https://github.com/muhamad-amin" target="_blank" class="text-decoration-none text-white">Muhamad Amin</a></b></p>
             </footer>
         </div>
         <!-- Script js Bootstrap Start -->

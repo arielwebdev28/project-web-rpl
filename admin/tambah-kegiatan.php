@@ -17,7 +17,7 @@
         <div class="container d-flex justify-content-center p-5 w-50">
             <main class="form-signin w-75">
             <form action="" name="" method="">
-                <h1 class="display-5 mb-3 text-center fw-normal text-light">Tambah Berita</h1>
+                <h1 class="display-5 mb-3 text-center fw-normal text-light">Tambah Foto Kegiatan</h1>
                 <div class="form-floating">
                 <input type="text" class="form-control" id="floatingInput" placeholder="Judul" name="">
                 <label for="floatingInput">Judul</label>
@@ -27,16 +27,15 @@
                 <label for="floatingInput">Foto</label>
                 </div>
                 <div class="form-floating my-4">
-                <input type="text" class="form-control" id="floatingInput" placeholder="Berita" name="">
-                <label for="floatingInput">Berita</label>
+                <input type="text" class="form-control" id="floatingInput" placeholder="Detail" name="">
+                <label for="floatingInput">Detail</label>
                 </div>
                 <div class="form-floating my-4">
                 <input type="date" class="form-control" id="floatingInput" placeholder="Tanggal Dibuat" name="">
                 <label for="floatingInput">Tanggal Dibuat</label>
                 </div>
-
                 <div class="my-4">
-                    <button class="btn btn-primary w-100 py-2" type="submit" name="">Tambah Berita</button>
+                    <button class="btn btn-primary w-100 py-2" type="submit" name="">Tambah Foto Kegiatan</button>
                 </div>
             </form>
             </main>
