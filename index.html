@@ -14,31 +14,32 @@
     </head>
     <body style="background-color: rgb(58, 79, 172);">
         <!-- navbar-->
-        <nav class="navbar navbar-expand-lg  sticky-top bg-warning">
-            <div class="container-fluid px-5">
-                <a class="navbar-brand" href="index.html">RPL Production</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="berita.php">Berita</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="produk.html">Produk</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 bg-warning" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-primary" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
+        <nav class="navbar navbar-expand-lg sticky-top"  style="background-color: #f6a820;">
+          <div class="container-fluid px-5">
+            <img src="assets/img/logo rpl.jpg" class="border-warning" style="border-radius: 100%;" width="50px" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item"><a href="index.html" class="nav-link text-black">Home</a></li>
+                      <li class="nav-item"><a class="nav-link active" aria-current="page" href="berita.php">Berita</a></li>
+                      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="produk.html">Produk</a></li>
+                      <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+                      <li class="nav-item"><a class="nav-link" href="testi.html">Testimoni</a></li>
+                  </ul>
+              </div>
+              <form class="d-flex mt-3 mt-sm-0" role="search">
+                  <input class="form-control me-2" style="background-color: #f6a820;" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-primary" type="submit">Search</button>
+              </form>
+          </div>
+      </nav>
         <!-- Content-->
         <div class="container px-4 mt-5 px-lg-5 text-white">
             <!-- Heading content -->
             <div class="row gx-4 gx-lg-5 align-items-center my-5">
                 <div class="col-lg-7">
-                  <img class="img-fluid rounded mb-4 mb-lg-0" src="https://dummyimage.com/600x300/ffb300/fff&text=foto+rpl+600x300" alt="img" />
+                  <img class="img-fluid rounded mb-4 mb-lg-0" src="assets/img/tes (4).jpg" alt="img" />
                 </div>
                 <div class="col-lg-5">
                     <h1 class="font-weight-light">RPL SMKN 1 PRINGGABAYA</h1>
@@ -51,57 +52,98 @@
             </div>
 
             <!-- Content -->
-            <p class="display-5">Beberapa Produk Kami</p>
+            <p class="display-5">Produk Kami</p>
             <div class="row gx-4 gx-lg-5">
-                <div class="col-md-4 mb-5">
+                <div class="col-md-3 mb-5">
                     <div class="card h-100 bg-white">
-                        <div class="card-body">
-                            <h2 class="card-title">Produk 1</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-                        </div>
+                        <img src="assets/img/gelas1.png" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img">
+                        <p class="m-2">
+                          Nama Produk <!-- synax php read data dari db -->
+                          <br>
+                          <b>Rp000<!-- synax php read data dari db --></b>
+                        </p>
+                      </img>
                         <div class="card-footer d-flex justify-content-center">
-                            <div class="btn-group me-1 ms-1">
-                              <a href="#" class="btn btn-sm btn-warning">
+                            <a href="#" class="btn btn-primary ms-2 me-2">
+                              Selengkapnya
+                            </a>
+                            <div class="btn-group me-2 ms-2">
+                              <a href="#" class="btn btn-sm" style="background-color: #f6a820;">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
                                 </svg> Beli Sekarang
                               </a>
-                            </div>
-                        </div>
+                            </div>  
+                          </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
+                <div class="col-md-3 mb-5">
                     <div class="card h-100 bg-white">
-                        <div class="card-body">
-                            <h2 class="card-title">Produk 2</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>
-                        </div>
+                        <img src="assets/img/gelas2.png" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img">
+                        <p class="m-2">
+                          Nama Produk <!-- synax php read data dari db -->
+                          <br>
+                          <b>Rp000<!-- synax php read data dari db --></b>
+                        </p>
+                      </img>
                         <div class="card-footer d-flex justify-content-center">
-                            <div class="btn-group me-1 ms-1">
-                              <a href="#" class="btn btn-sm btn-warning">
+                            <a href="#" class="btn btn-primary ms-2 me-2">
+                              Selengkapnya
+                            </a>
+                            <div class="btn-group me-2 ms-2">
+                              <a href="#" class="btn btn-sm" style="background-color: #f6a820;">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
                                 </svg> Beli Sekarang
                               </a>
-                            </div>
-                        </div>
+                            </div>  
+                          </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
+                <div class="col-md-3 mb-5">
                     <div class="card h-100 bg-white">
-                        <div class="card-body">
-                            <h2 class="card-title">Produk 3</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>
-                        </div>
+                        <img src="assets/img/gelas1.png" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img">
+                        <p class="m-2">
+                          Nama Produk <!-- synax php read data dari db -->
+                          <br>
+                          <b>Rp000<!-- synax php read data dari db --></b>
+                        </p>
+                      </img>
                         <div class="card-footer d-flex justify-content-center">
-                            <div class="btn-group me-1 ms-1">
-                              <a href="#" class="btn btn-sm btn-warning">
+                            <a href="#" class="btn btn-primary ms-2 me-2">
+                              Selengkapnya
+                            </a>
+                            <div class="btn-group me-2 ms-2">
+                              <a href="#" class="btn btn-sm" style="background-color: #f6a820;">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
                                 </svg> Beli Sekarang
                               </a>
-                            </div>
-                        </div>  
+                            </div>  
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card h-100 bg-white">
+                        <img src="assets/img/gelas2.png" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img">
+                        <p class="m-2">
+                          Nama Produk <!-- synax php read data dari db -->
+                          <br>
+                          <b>Rp000<!-- synax php read data dari db --></b>
+                        </p>
+                      </img>
+                        <div class="card-footer d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary ms-2 me-2">
+                              Selengkapnya
+                            </a>
+                            <div class="btn-group me-2 ms-2">
+                              <a href="#" class="btn btn-sm" style="background-color: #f6a820;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                </svg> Beli Sekarang
+                              </a>
+                            </div>  
+                          </div>
                     </div>
                 </div>
             </div>
@@ -115,6 +157,7 @@
                 <li class="nav-item"><a href="about.html" class="nav-link px-2 text-light">About</a></li>
                 <li class="nav-item"><a href="produk.html" class="nav-link px-2 text-light">Produk</a></li>
                 <li class="nav-item"><a href="contactus.html" class="nav-link px-2 text-light">Contact Us</a></li>
+                <li class="nav-item"><a href="testi.html" class="nav-link px-2 text-light">Testimoni</a></li>
                 </ul>
                 <p class="text-center">&copy; 2024 <b><a href="https://github.com/arielwebdev28" target="_blank" class="text-decoration-none text-white">Ariel Gunawan</a> & <a href="https://github.com/muhamad-amin" target="_blank" class="text-decoration-none text-white">Muhamad Amin</a></b></p>
             </footer>

@@ -27,9 +27,15 @@
                 <input type="number" class="form-control" id="floatingInput" value="masukkan syntax by id di sini" placeholder="Harga" name="">
                 <label for="floatingInput">Harga</label>
                 </div>
+                <div class="mb-3">
+                    <label for="imageOld" class="form-label">Image old</label>
+                    <div class="col-lg-5 offset-lg-3">
+                        <input type="hidden" name="oldImage" value="{{ $product->image }}">
+                        <img src="../assets/img/tes (1).jpg" class="img-thumbnail" alt="{{ $product->name }}">
+                    </div>
                 <div class="form-floating my-4">
-                <input type="file" class="form-control" id="floatingInput" value="masukkan syntax by id di sini" placeholder="Foto" name="">
-                <label for="floatingInput">Foto</label>
+                <input type="file" class="form-control" id="floatingInput" placeholder="Foto" name="">
+                <label for="floatingInput">Foto <span class="text-danger">*optional</span></label>
                 </div>
                 <div class="form-floating my-4">
                 <input id="x" type="hidden" value="masukkan syntax by id di sini" name="content">
@@ -38,14 +44,6 @@
                 <div class="form-floating my-4">
                 <input type="text" class="form-control" id="floatingInput" value="masukkan syntax by id di sini" placeholder="Excerpt" name="">
                 <label for="floatingInput">Excerpt</label>
-                </div>
-                <div class="form-floating my-4">
-                <input type="date" class="form-control" id="floatingInput" value="masukkan syntax by id di sini" placeholder="Tanggal Dibuat" name="">
-                <label for="floatingInput">Tanggal Dibuat</label>
-                </div>
-                <div class="form-floating my-4">
-                <input type="date" class="form-control" id="floatingInput" value="masukkan syntax by id di sini" placeholder="Tanggal Dibuat" name="">
-                <label for="floatingInput">Tanggal Diubah</label>
                 </div>
                 <div class="my-4">
                     <button class="btn btn-primary w-100 py-2" type="submit" name="">Tambah Produk</button>

@@ -14,55 +14,49 @@
     </head>
     <body style="background-color: rgb(58, 79, 172); color: white;">
         <!-- navbar-->
-        <nav class="navbar navbar-expand-lg sticky-top bg-warning">
+        <nav class="navbar navbar-expand-lg sticky-top"  style="background-color: #f6a820;">
             <div class="container-fluid px-5">
-                <a class="navbar-brand" href="index.html">RPL Production</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+              <img src="assets/img/logo rpl.jpg" class="border-warning" style="border-radius: 100%;" width="50px" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-black">Home</a></li>
+                        <li class="nav-item"><a href="index.html" class="nav-link text-black">Home</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="berita.php">Berita</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="produk.html">Produk</a></li>
                         <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="testi.html">Testimoni</a></li>
                     </ul>
                 </div>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 bg-warning" type="search" placeholder="Search" aria-label="Search">
+                <form class="d-flex mt-3 mt-sm-0" role="search">
+                    <input class="form-control me-2" style="background-color: #f6a820;" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-primary" type="submit">Search</button>
                 </form>
             </div>
         </nav>
         <!-- Content -->
-        <div class="container">
-            <form action="" method="" name="">
-                <table class="w-100 mt-4 mb-2">
-                    <tr>
-                        <td class="w-75">
-                        </td>
-                        <td class="d-flex">
-                            <input class="form-control" type="search" style="background-color: rgb(58, 79, 172); color: white;" placeholder="Cari Data" name="" aria-label="Search">
-                            <button class="btn btn-primary" type="submit">Search</button>
-                        </td>
-                    </tr>
-                </table>
-                <table class="table table-bordered table-striped table-responsive w-100">
-                    <tr">
-                        <th class="text-center">Judul</th>
-                        <th class="text-center">Foto</th>
-                        <th class="w-50 text-center">Berita</th>
-                        <th class="text-center">Tanggal Dibuat</th>
-                    </tr>
-                    <tr>
-                        <td class="text-center">data dari db</td>
-                        <td class="text-center">data dari db</td>
-                        <td class="w-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio a unde nobis molestias error! Ab nulla, minima saepe dolor, nostrum atque cupiditate iste consectetur sunt natus ad ullam quibusdam deserunt.</td>
-                        <td class="text-center">data dari db</td>
-                    </tr>
-                </table>
-            </form>
+        <div class="container mt-5">
+            <div class="row mb-2">
+            <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
+                <h3 class="mb-0">Post title</h3>
+                <div class="mb-1 text-body-secondary">Nov 11</div>
+                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="icon-link text-white col-7 btn btn-primary gap-1 icon-link-hover stretched-link">
+                    Continue reading
+                    <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+                </a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                </div>
+            </div>
+            </div>
         </div>
-        <!-- Footer-->
+        </div>
+        <!-- Footer -->
         <div class="container">
             <footer class="py-1 my-1 text-light">
                 <ul class="nav justify-content-center border-bottom pb-2 mb-2">
@@ -71,6 +65,7 @@
                 <li class="nav-item"><a href="about.html" class="nav-link px-2 text-light">About</a></li>
                 <li class="nav-item"><a href="produk.html" class="nav-link px-2 text-light">Produk</a></li>
                 <li class="nav-item"><a href="contactus.html" class="nav-link px-2 text-light">Contact Us</a></li>
+                <li class="nav-item"><a href="testi.html" class="nav-link px-2 text-light">Testimoni</a></li>
                 </ul>
                 <p class="text-center">&copy; 2024 <b><a href="https://github.com/arielwebdev28" target="_blank" class="text-decoration-none text-white">Ariel Gunawan</a> & <a href="https://github.com/muhamad-amin" target="_blank" class="text-decoration-none text-white">Muhamad Amin</a></b></p>
             </footer>
