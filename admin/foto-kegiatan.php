@@ -7,16 +7,15 @@
         <meta name="author" content="" />
         <title>RPL SMKN 1 PRINGGABAYA PRODUCTION</title>
         <!-- Favicon-->
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
         <!-- link css -->
         <link rel="stylesheet" href="../assets/css/style.css">
         <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     </head>
     <body style="background-color: rgb(58, 79, 172);">
-        <!-- navbar-->
         <nav class="navbar navbar-expand-lg sticky-top bg-warning">
             <div class="container-fluid px-5">
-                <a class="navbar-brand" href="berita.php">RPL Production</a>
+            <img src="../assets/img/logonavbar.png" class="border-warning" width="120px" alt="">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -25,7 +24,7 @@
                         <li class="nav-item"><a class="nav-link" href="produk.php">Produk</a></li>
                         <li class="nav-item"><a class="nav-link" href="foto-kegiatan.php">Foto Kegiatan</a></li>
                     </ul>
-                </div>
+                </div>                
                 <form class="d-flex" role="search">
                     
                 </form>

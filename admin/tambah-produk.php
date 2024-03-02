@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>RPL SMKN 1 PRINGGABAYA PRODUCTION</title>
         <!-- Favicon-->
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
         <!-- link css -->
         <link rel="stylesheet" href="../assets/css/trix.css">
         <link rel="stylesheet" href="../assets/css/style.css">
