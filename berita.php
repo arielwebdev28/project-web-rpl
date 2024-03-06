@@ -34,26 +34,55 @@
               </form>
           </div>
         </nav>
-        <!-- Content -->        
-        <div class="container mt-5">
-            <div class="row mb-2">
-                <div class="col-md-6">
-                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                        <div class="col p-4 d-flex flex-column position-static">
-                        <h3 class="mb-0">Nama Berita</h3>
-                        <div class="mb-1 text-body-secondary">Tanggal Berita</div>
-                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="detail-berita.html" class="text-white col-7 btn btn-primary gap-1 icon-link-hover stretched-link text-center">
-                            Continue reading
-                        </a>
-                        </div>
-                        <div class="col-auto d-none d-lg-block">
-                        <img src="assets/img/tes (4).jpg" class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img">
-                        </div>
-                    </div>
+        <!-- Content-->
+        <main>
+          <section class="py-1 text-center container text-white">
+              <div class="row py-lg-4">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                  <h1 class="fw-light">Berita Terbaru</h1>
+                  <p class="lead text-white">
+                    berita terbaru di rpl production
+                  </p>
+                  <p>
+                    <a href="#produk" class="btn my-2" style="background-color: #f6a820;">Lihat Produk</a>
+                  </p>
                 </div>
-            </div>
-        </div>
+              </div>
+          </section>
+          <div class="album py-5" id="produk" style="color: #f6a820;">
+              <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                  <!-- Card 1 -->
+                  <div class="col col-md-4">
+                    <div class="card shadow-sm">
+                      <img src="assets/img/tes (4).jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" role="img">
+                        <div class="body d-flex justify-content-between ms-2 me-3">
+                          <b class="">
+                            Nama Berita
+                          </b>
+                          <small>
+                            Tanggal Dibuat
+                          </small>
+                        </div>
+                        <p class="ms-2">
+                          deskripsi berita
+                        </p>
+                      </img>
+                      <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a href="detail-berita.html" class="text-decoration-none text-light">
+                              <button type="submit" name="" class="btn btn-sm btn-primary ms-2 me-2">Selengkapnya</button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </main>
         <!-- Footer -->
         <div class="container">
             <footer class="py-1 my-1 text-light">
